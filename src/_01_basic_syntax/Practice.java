@@ -54,9 +54,6 @@ public class Practice {
             i++;
         }while(i <= number);
         sc.close();
-    //   두개의 매개변수를 받아서 연산 수행
-        System.out.println("숫자 두개를 입력하세요");
 
-        sc.close();
     }
 }

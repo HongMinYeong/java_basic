@@ -1,6 +1,7 @@
 package _02_control_statement;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class LoopControl {
     public static void main(String[] args) {
@@ -39,5 +40,8 @@ public class LoopControl {
         list.add("B");
         list.add("C");
 
+        for (String l: list) {
+            System.out.println("l = " + l);
+        }
     }
 }
